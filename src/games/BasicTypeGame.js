@@ -46,7 +46,7 @@ class BasicTypeGame extends Component {
               }}
               onChange={(event) => {
                 const wordTyped = event.target.value;
-                if (wordTyped === this.state.randomWord) {
+                if (wordTyped.toLowerCase() === this.state.randomWord) {
                   this.setState((prevState) => {
                     const prevScore = prevState.score;
                     const prevWrongScore = prevState.wrongScore;
@@ -59,7 +59,7 @@ class BasicTypeGame extends Component {
                     }
                   });
                   event.target.value = '';
-                } else if (!this.state.randomWord.startsWith(wordTyped) && !this.state.isRecord) {
+                } else if (!this.state.randomWord.startsWith(wordTyped.toLowerCase()) && !this.state.isRecord) {
                   this.setState((prevState) => {
                     const prevScore = prevState.wrongScore;
                     return {
