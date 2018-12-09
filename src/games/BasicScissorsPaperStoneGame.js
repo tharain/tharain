@@ -32,7 +32,7 @@ class BasicScissorsPaperStoneGame extends Component {
           </div>
         </div>
         <div className="ySpace" />
-        <div className="justifyCenter">
+        <div className="justifyCenter flexWrap">
           <div
             className="gameCard maxFont"
             onClick={() => {
