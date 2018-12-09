@@ -1,7 +1,7 @@
 {
   "main.css": "/tharain/static/css/main.7fbe2d55.chunk.css",
-  "main.js": "/tharain/static/js/main.db816fd8.chunk.js",
-  "main.js.map": "/tharain/static/js/main.db816fd8.chunk.js.map",
+  "main.js": "/tharain/static/js/main.d426c333.chunk.js",
+  "main.js.map": "/tharain/static/js/main.d426c333.chunk.js.map",
   "static/js/1.a3ef684a.chunk.js": "/tharain/static/js/1.a3ef684a.chunk.js",
   "static/js/1.a3ef684a.chunk.js.map": "/tharain/static/js/1.a3ef684a.chunk.js.map",
   "runtime~main.js": "/tharain/static/js/runtime~main.3739de73.js",
@@ -11,6 +11,6 @@
   "static/media/hp_logo.png": "/tharain/static/media/hp_logo.742fa59d.png",
   "static/media/shopee_logo.svg": "/tharain/static/media/shopee_logo.dc80695c.svg",
   "index.html": "/tharain/index.html",
-  "precache-manifest.2a8bbd643c2d4cb88cccb8f6d8a2d6db.js": "/tharain/precache-manifest.2a8bbd643c2d4cb88cccb8f6d8a2d6db.js",
+  "precache-manifest.efde9e84a42b381a13d7931f35f2c426.js": "/tharain/precache-manifest.efde9e84a42b381a13d7931f35f2c426.js",
   "service-worker.js": "/tharain/service-worker.js"
 }

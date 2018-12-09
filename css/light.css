@@ -60,7 +60,7 @@ a {
   cursor: pointer;
   display: inline-block;
   height: 200px;
-  min-width: 50px;
+  min-width: 200px;
   overflow: hidden;
   width: 30%;
 }
