@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DropDown from '../components/DropDown';
 import BasicTypeGame from '../games/BasicTypeGame';
+import BasicObstacleGame from '../games/BasicObstacleGame';
 import BasicScissorsPaperStoneGame from '../games/BasicScissorsPaperStoneGame';
 
 const cssMode = ['dark mode', 'light mode'];
@@ -61,6 +62,7 @@ class Game extends Component {
         {this.state.gameState === 'scissors-paper-stone game' ? (
           <BasicScissorsPaperStoneGame />
         ): null}
+        <BasicObstacleGame />
       </div>
     );
   }

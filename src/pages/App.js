@@ -4,6 +4,7 @@ import shopeelogo from '../icons/shopee_logo.svg';
 import hplogo from '../icons/hp_logo.png';
 import { ListGroup, ListGroupItem, Panel, Carousel, Tab, Row, Col, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { isMobile } from 'react-device-detect';
 
 class App extends Component {
   render() {
@@ -47,9 +48,6 @@ class App extends Component {
                 <NavItem eventKey="work" className="white">WORK</NavItem>
                 <NavItem eventKey="education" className="white">EDUCATION</NavItem>
                 <NavItem eventKey="achievements" className="white">ACHIEVEMENTS</NavItem>
-                <LinkContainer to='/game'>
-                  <NavItem className="nav-link white">BETA TEST GAME</NavItem>
-                </LinkContainer>
               </Nav>
             </Col>
             <Col sm={8}>
