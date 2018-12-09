@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import DropDown from '../components/DropDown';
+import BasicTypeGame from '../games/BasicTypeGame';
+import BasicScissorsPaperStoneGame from '../games/BasicScissorsPaperStoneGame';
 
 const cssMode = ['dark mode', 'light mode'];
-const games = ['basic-typing game'];
-const randomWord = require('random-words');
+const games = ['basic-typing game', 'scissors-paper-stone game'];
 
 class Game extends Component {
   constructor(){
@@ -11,10 +12,6 @@ class Game extends Component {
     this.state = {
       gameState: '',
       cssState: 'dark mode',
-      score: 0,
-      wrongScore: 0,
-      randomWord: randomWord(),
-      isRecord: false,
     }
   }
 
@@ -59,57 +56,10 @@ class Game extends Component {
         </div>
         <div className="ySpace" />
         {this.state.gameState === 'basic-typing game' ? (
-          <div className="gameCanvas">
-            Wrong Score:
-            {' '}
-            {this.state.wrongScore}
-            <br />
-            Score:
-            {' '}
-            {this.state.score}
-            <div className="ySpace" />
-            <div className="h1">
-              {this.state.randomWord}
-            </div>
-            <div className="gameSpace" />
-            <div className="justifyCenter">
-              <form>
-                <input
-                  className="reactText"
-                  type="text"
-                  name="textgame"
-                  onKeyPress={(event) => {
-                      if (event.which === 13 /* Enter */) {
-                        event.preventDefault();
-                      }
-                  }}
-                  onChange={(event) => {
-                    const wordTyped = event.target.value;
-                    if (wordTyped === this.state.randomWord) {
-                      this.setState((prevState) => {
-                        const prevScore = prevState.score;
-                        const prevWrongScore = prevState.wrongScore;
-                        return {
-                          score: prevScore + 1,
-                          randomWord: randomWord({ exactly: Math.ceil((prevScore - prevWrongScore + 1)/10) }).join(' '),
-                          isRecord: false,
-                        }
-                      });
-                      event.target.value = '';
-                    } else if (!this.state.randomWord.startsWith(wordTyped) && !this.state.isRecord) {
-                      this.setState((prevState) => {
-                        const prevScore = prevState.wrongScore;
-                        return {
-                          wrongScore: prevScore + 1,
-                          isRecord: true,
-                        }
-                      });
-                    }
-                  }}
-                />
-              </form>
-            </div>
-          </div>
+          <BasicTypeGame />
+        ): null}
+        {this.state.gameState === 'scissors-paper-stone game' ? (
+          <BasicScissorsPaperStoneGame />
         ): null}
       </div>
     );

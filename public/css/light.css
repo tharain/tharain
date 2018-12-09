@@ -37,7 +37,7 @@ a {
 /* start type game */
 .gameCanvas {
   border: 2px solid grey;
-  height: 50%;
+  height: auto;
   min-height: 300px;
   min-width: 300px;
   padding: 0.429em;
@@ -53,6 +53,30 @@ a {
   border: 2px solid black;
 }
 /* end type game */
+
+/* start scissors paper stone game */
+.gameCard {
+  border: 2px solid grey;
+  cursor: pointer;
+  display: inline-block;
+  height: 200px;
+  min-width: 50px;
+  overflow: hidden;
+  width: 30%;
+}
+
+.maxFont {
+  font-size: 180px;
+  text-align: center;
+}
+
+.next {
+  border: 2px solid grey;
+  cursor: pointer;
+  text-align: center;
+  width: 90%;
+}
+/* end scissors paper stone game */
 
 .maxHeight {
   height: 100%;
