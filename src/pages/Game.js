@@ -88,9 +88,10 @@ class Game extends Component {
                     if (wordTyped === this.state.randomWord) {
                       this.setState((prevState) => {
                         const prevScore = prevState.score;
+                        const prevWrongScore = prevState.wrongScore;
                         return {
                           score: prevScore + 1,
-                          randomWord: randomWord(),
+                          randomWord: randomWord({ exactly: Math.ceil((prevScore - prevWrongScore + 1)/10) }).join(' '),
                           isRecord: false,
                         }
                       });
