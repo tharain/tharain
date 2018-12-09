@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/tharain/static/js/runtime~main.3739de73.js"
   },
   {
-    "revision": "1234d086f72137ee2f5c",
-    "url": "/tharain/static/js/main.1234d086.chunk.js"
+    "revision": "6a93f6ee3fcddc9bbd51",
+    "url": "/tharain/static/js/main.6a93f6ee.chunk.js"
   },
   {
     "revision": "8e5c457c4fc93d4954f2",
     "url": "/tharain/static/js/1.8e5c457c.chunk.js"
   },
   {
-    "revision": "1234d086f72137ee2f5c",
+    "revision": "6a93f6ee3fcddc9bbd51",
     "url": "/tharain/static/css/main.7fbe2d55.chunk.css"
   },
   {
-    "revision": "d01e89667e8549694a253f770206a31e",
+    "revision": "071657f241296cb0bb07174906250c1b",
     "url": "/tharain/index.html"
   }
 ];
