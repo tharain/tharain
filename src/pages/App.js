@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
-import astarlogo from './astar_logo.svg';
-import shopeelogo from './shopee_logo.svg';
-import hplogo from './hp_logo.png';
+import astarlogo from '../icons/astar_logo.svg';
+import shopeelogo from '../icons/shopee_logo.svg';
+import hplogo from '../icons/hp_logo.png';
 import { ListGroup, ListGroupItem, Panel, Carousel, Tab, Row, Col, Nav, NavItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <link rel="stylesheet" href="./css/app.css" />
+        <link rel="stylesheet" href="./css/App_old.css" />
         <Carousel className="App-header">
           <Carousel.Item className="light-pink-font">
             <h1>&#60;Daphne Won&#47;&#62;</h1>
@@ -45,6 +47,9 @@ class App extends Component {
                 <NavItem eventKey="work" className="white">WORK</NavItem>
                 <NavItem eventKey="education" className="white">EDUCATION</NavItem>
                 <NavItem eventKey="achievements" className="white">ACHIEVEMENTS</NavItem>
+                <LinkContainer to='/game'>
+                  <NavItem className="nav-link white">BETA TEST GAME</NavItem>
+                </LinkContainer>
               </Nav>
             </Col>
             <Col sm={8}>
@@ -79,6 +84,7 @@ class App extends Component {
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="portfolios">
+                <br/>
                 <Panel bsStyle="success">
                   <Panel.Heading>
                     <Panel.Title><h1>Daphne's satisfied portfolio</h1></Panel.Title>

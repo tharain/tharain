@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.maxHeight {
+  height: 100%;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.h1 {
+  font-size: 60px;
+  text-align: center;
+}
