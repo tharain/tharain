@@ -78,6 +78,11 @@ class Game extends Component {
                   className="reactText"
                   type="text"
                   name="textgame"
+                  onKeyPress={(event) => {
+                      if (event.which === 13 /* Enter */) {
+                        event.preventDefault();
+                      }
+                  }}
                   onChange={(event) => {
                     const wordTyped = event.target.value;
                     if (wordTyped === this.state.randomWord) {
