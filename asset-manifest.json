@@ -1,9 +1,9 @@
 {
   "main.css": "/tharain/static/css/main.7fbe2d55.chunk.css",
-  "main.js": "/tharain/static/js/main.d426c333.chunk.js",
-  "main.js.map": "/tharain/static/js/main.d426c333.chunk.js.map",
-  "static/js/1.a3ef684a.chunk.js": "/tharain/static/js/1.a3ef684a.chunk.js",
-  "static/js/1.a3ef684a.chunk.js.map": "/tharain/static/js/1.a3ef684a.chunk.js.map",
+  "main.js": "/tharain/static/js/main.68e2f3cc.chunk.js",
+  "main.js.map": "/tharain/static/js/main.68e2f3cc.chunk.js.map",
+  "static/js/1.7e78a441.chunk.js": "/tharain/static/js/1.7e78a441.chunk.js",
+  "static/js/1.7e78a441.chunk.js.map": "/tharain/static/js/1.7e78a441.chunk.js.map",
   "runtime~main.js": "/tharain/static/js/runtime~main.3739de73.js",
   "runtime~main.js.map": "/tharain/static/js/runtime~main.3739de73.js.map",
   "static/css/main.7fbe2d55.chunk.css.map": "/tharain/static/css/main.7fbe2d55.chunk.css.map",
@@ -11,6 +11,6 @@
   "static/media/hp_logo.png": "/tharain/static/media/hp_logo.742fa59d.png",
   "static/media/shopee_logo.svg": "/tharain/static/media/shopee_logo.dc80695c.svg",
   "index.html": "/tharain/index.html",
-  "precache-manifest.efde9e84a42b381a13d7931f35f2c426.js": "/tharain/precache-manifest.efde9e84a42b381a13d7931f35f2c426.js",
+  "precache-manifest.c09a57c345b849d273d4e080f02ad9f8.js": "/tharain/precache-manifest.c09a57c345b849d273d4e080f02ad9f8.js",
   "service-worker.js": "/tharain/service-worker.js"
 }

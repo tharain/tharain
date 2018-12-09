@@ -1,7 +1,7 @@
 var sparks=50;
 var speed=33;
 var bangs=1;
-var colours=new Array('#FFFFFF');
+var colours=new Array('#DDD');
 /****************************
 *   Clicksplosion Effect    *
 * (c) 2012 mf2fm web-design *
