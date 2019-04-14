@@ -1,21 +1,5 @@
-.skilled {
-  background-color: #3c763d !important;
-}
-
-.sufficient {
-  background-color: #31708f !important;
-}
-
-.tried {
-  background-color: #8a6d3b !important;
-}
-
-.basic {
-  background-color: #333 !important;
-}
-
 body {
-  background-color: #111;
+  background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,41 +10,12 @@ a {
   text-decoration: none;
 }
 
-.themebackground {
-  color: white !important;
-  background-color: #111 !important;
-}
-
-.paper {
-  margin: 20px !important;
-  padding: 20px !important;
-  background-color: slategray;
-}
-
-.paperPaper {
-  background-color: #222;
-}
-
-.typographyFont {
-  color: #fff;
-}
-
-li {
-  color: #fff !important;
-}
-
-.nolink {
-  color: #fff !important;
-  cursor: pointer;
-}
-
 /* dropdown */
 .dropdown {
   border: 2px solid grey;
-  height: 40px;
+  height: 20px;
   font-size: 14px;
   padding: 0.429em;
-  flex-grow: 1;
 }
 
 .dropdownSelectText {
@@ -75,6 +30,7 @@ li {
   display: block;
   padding: 0.429em;
   position: absolute;
+  width: auto;
 }
 /* end dropdown */
 
@@ -126,4 +82,45 @@ li {
 
 /* end obstacle game */
 
-/* Tharain */
+.maxHeight {
+  height: 100%;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.ySpace {
+  height: 25px;
+  width: 100%;
+}
+
+.gameSpace {
+  height: 80px;
+  width: 100%;
+}
+
+.h1 {
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.flexWrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.justifyCenter {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.floatRight {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 90%;
+}
