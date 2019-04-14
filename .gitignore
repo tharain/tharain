@@ -8,6 +8,7 @@
 
 # production
 /build
+/dist
 
 # hidden
 /hidden
@@ -18,6 +19,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.webpack.config.js
+.babelrc
 
 npm-debug.log*
 yarn-debug.log*

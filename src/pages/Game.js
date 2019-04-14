@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import DropDown from '../components/DropDown';
-import BasicTypeGame from '../games/BasicTypeGame';
-import BasicObstacleGame from '../games/BasicObstacleGame';
-import BasicScissorsPaperStoneGame from '../games/BasicScissorsPaperStoneGame';
+import DropDown from 'src/components/DropDown';
+import BasicTypeGame from 'src/games/BasicTypeGame';
+import BasicObstacleGame from 'src/games/BasicObstacleGame';
+import BasicScissorsPaperStoneGame from 'src/games/BasicScissorsPaperStoneGame';
 
 const cssMode = ['dark mode', 'light mode'];
 const games = ['basic-typing game', 'scissors-paper-stone game'];

@@ -1,0 +1,129 @@
+.skilled {
+  background-color: #3c763d !important;
+}
+
+.sufficient {
+  background-color: #31708f !important;
+}
+
+.tried {
+  background-color: #8a6d3b !important;
+}
+
+.basic {
+  background-color: #333 !important;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.themebackground {
+  color: white !important;
+  background-color: #111 !important;
+}
+
+.paper {
+  margin: 20px !important;
+  padding: 20px !important;
+  background-color: slategray;
+}
+
+.paperPaper {
+  background-color: #222;
+}
+
+.typographyFont {
+  color: #fff;
+}
+
+li {
+  color: #fff !important;
+}
+
+.nolink {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+/* dropdown */
+.dropdown {
+  border: 2px solid grey;
+  height: 40px;
+  font-size: 14px;
+  padding: 0.429em;
+  flex-grow: 1;
+}
+
+.dropdownSelectText {
+  color: rgb(97,97,97);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdownbodyBackground {
+  background-color: black;
+  border: 2px solid grey;
+  display: block;
+  padding: 0.429em;
+  position: absolute;
+}
+/* end dropdown */
+
+/* start type game */
+.gameCanvas {
+  border: 2px solid grey;
+  height: auto;
+  min-height: 300px;
+  min-width: 300px;
+  padding: 0.429em;
+  width: 50%;
+}
+
+.reactText {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  padding: 5px;
+  border: 2px solid white;
+}
+/* end type game */
+
+/* start scissors paper stone game */
+.gameCard {
+  border: 2px solid grey;
+  cursor: pointer;
+  display: inline-block;
+  height: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  width: 30%;
+}
+
+.maxFont {
+  font-size: 10em;
+  text-align: center;
+}
+
+.next {
+  border: 2px solid grey;
+  cursor: pointer;
+  text-align: center;
+  width: 90%;
+}
+/* end scissors paper stone game */
+
+/* start obstacle game */
+
+/* end obstacle game */
+
+/* Tharain */
