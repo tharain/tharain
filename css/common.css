@@ -1,0 +1,79 @@
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.breadcrumb {
+  padding: 10px;
+}
+
+.link {
+  color: #f50057 !important;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flexHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.headerButton {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  flex-grow: 1;
+}
+
+.portfolioButton {
+  margin-top: 10px !important;
+  width: 100%;
+}
+
+.maxHeight {
+  height: 100%;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.ySpace {
+  height: 25px;
+  width: 100%;
+}
+
+.gameSpace {
+  height: 80px;
+  width: 100%;
+}
+
+.h1 {
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.flexWrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.justifyCenter {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.floatRight {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 90%;
+}
