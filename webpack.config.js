@@ -8,16 +8,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(j|t)sx?$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
+          options: {
+            cacheDirectory: true,
+          }
         },
-      },
-      {
-        test: /\.tsx?$/,
-        exclude: /node_modules/,
-        loader: 'ts-loader',
       },
       {
         test: /\.html$/,
@@ -75,8 +73,14 @@ module.exports = {
   },
   resolve: {
     alias: {
+      'react-dom': '@hot-loader/react-dom',
       src: THIS_DIR.concat('src/'),
     },
+    extensions: ['.ts', '.tsx', '.wasm', '.mjs', '.jsx', '.js', '.json', '.png'],
+  },
+
+  entry: {
+    main: THIS_DIR.concat('src/index.tsx'),
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -86,9 +90,6 @@ module.exports = {
     new webpack.HashedModuleIdsPlugin(),
   ],
   watch: false,
-  entry: {
-    main: THIS_DIR.concat('src/index.js'),
-  },
   output: {
     path: THIS_DIR.concat('build/'),
     filename: '[name].[contenthash].js',
