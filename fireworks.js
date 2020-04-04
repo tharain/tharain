@@ -1,3 +1,5 @@
+var window = require('global');
+
 var sparks=50;
 var speed=33;
 var bangs=1;
