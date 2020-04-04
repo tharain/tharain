@@ -30,23 +30,27 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: THIS_DIR,
-        use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' },
-        ],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.less$/,
-        use: [{
-          loader: "style-loader" // creates style nodes from JS strings
-        }, {
-          loader: "css-loader" // translates CSS into CommonJS
-        }, {
-          loader: "less-loader", // compiles Less to CSS
-          options: { javascriptEnabled: true }
-        }]
+        use: [
+          {
+            loader: 'style-loader', // creates style nodes from JS strings
+          },
+          {
+            loader: 'css-loader', // translates CSS into CommonJS
+            options: {
+              modules: true,
+              importLoaders: 1,
+            }
+          },
+          {
+            loader: 'less-loader', // compiles Less to CSS
+          },
+        ],
       },
+
       {
         test: /\.jpg$/,
         loader: 'file-loader',
